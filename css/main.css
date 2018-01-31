@@ -2,6 +2,11 @@ body{
     font-size: 13pt;
 }
 
+#backy{
+    height: 300px;
+    width: 100%;
+}
+
 #modal1, #modal2{
 text-align: center;
 font-size: 15pts;
@@ -19,16 +24,21 @@ font-size: 15pts;
    background-image: url(../assets/images/gray_suitcase.jpg);
 }
 
+
 a.planear{
     text-align: center;
     width: 100%;
   }
 
+.activator{
+width: 100px;
+  }
 
 .addComment{
 text-align: center;
 box-shadow:0 0 5px 5px #DDDDDD;
   }
+
 
 .brand-logo > img{
     width:60px;
