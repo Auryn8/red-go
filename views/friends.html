@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Red Social</title>
+    <link rel="stylesheet" href="../materialize/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+
+        <header>
+                <nav class="nav-extended #1e88e5 blue darken-1">
+                   <div class="nav-wrapper">
+                       <a href="#" class="brand-logo"><img src="../assets/images/go.png" alt="" ></a>
+                       <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+                       <a href="#" data-activates="mobile-demo" class="button-collapse right">        
+                         <ul>
+                           <li><input id="last_name" type="text" class="validate"placeholder="search"></li>  
+                           <li><i class="small material-icons">search</i></li>
+                          </ul>
+                        </a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                           <li><input id="last_name" type="text" class="validate"placeholder="search"></li>  
+                           <li><i class="small material-icons">search</i></li>
+                           <li><a href="home.html">Home</a></li>
+                           <li><a href="friends.html">Amigos</a></li>
+                           <li><a class="modal-trigger" href="#modal2">Planea tu viaje</a></li>
+                           <li><a class="modal-trigger" href="#modal1" ><img src="../assets/images/userman.png" width="50px" alt=""></a></li>
+                        </ul>
+                    </div>
+                </nav>  
+            </header>
+
+        <nav class="nav-extended">
+                <div class="nav-content">
+                  <ul class="tabs tabs-transparent">
+                    <li class="tab"><a href="#test1">Test 1</a></li>
+                    <li class="tab"><a class="active" href="#test2">Test 2</a></li>
+                    <li class="tab disabled"><a href="#test3">Disabled Tab</a></li>
+                    <li class="tab"><a href="#test4">Test 4</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <div id="test1" class="col s12"><img src="../assets/images/gray_suitcase.jpg" alt=""></div>
+              <div id="test2" class="col s12"><img src="../assets/images/rio-de-janeiro.jpg" alt=""></div>
+              <div id="test3" class="col s12">Test 3</div>
+              <div id="test4" class="col s12">Test 4</div>
+  <!-- User Modal -->
+
+  <div id="modal1" class="modal">
+        <i class="tiny material-icons right">close</i>
+        <p><img src="../assets/images/userman.png" width="90px" alt=""></p>
+        <h2>Elena Troya</h2>
+        <p><span><i class="mdi-action-perm-identity cyan-text text-darken-2"></i>---Wanderlust---</span></p>
+        <p>Los viajes ilustran...</p>
+        <p><i class="tiny material-icons cyan-text text-darken-2">favorite_border</i> Puntos :  8989</p>
+        <p><i class="tiny material-icons cyan-text text-darken-2">email</i> elena@troya.com</p>
+        <p>Puntaje <i class="tiny material-icons cyan-text text-darken-2">star star star star_half star_border</i></p>
+        <p><i class="tiny material-icons cyan-text text-darken-2">airplanemode_active</i>viajando ahora</p>
+    </div>
+          
+   <!-- User SideNav -->
+
+   <ul id="slide-out" class="side-nav">
+        <li><div class="user-view">
+          <div class="background">
+            <img src="../assets/images/gray_suitcase.jpg" class="center" width="160%">
+          </div>
+          <div class="row">
+              <div class="col s4"></div>
+              <div class="col s3 ">
+                    <img class="circle" src="../assets/images/userman.png" width="90px" alt="">
+              </div>
+              <div class="col s5"></div>
+          </div>
+          <h5 class="white-text">Elena Troya</h5>
+          <h5 class="white-text">elena@troya.com</h5>
+        </div></li>
+        <p>Puntaje <i class="tiny material-icons cyan-text text-darken-2">star star star star_half star_border</i></p>
+        <li><div class="divider"></div></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="friends.html">Amigos</a></li>
+        <li><a class="modal-trigger" href="#modal2">Planea tu viaje</a></li>
+      </ul>
+      
+
+              <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+              <script type="text/javascript" src="../materialize/js/materialize.min.js"></script>
+              <script src="../js/app.js"></script>
+          </body>
+          </html>
