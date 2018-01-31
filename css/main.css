@@ -7,6 +7,18 @@ text-align: center;
 font-size: 15pts;
 }
 
+#add-comm{
+    background: url(../assets/images/userman.png) no-repeat scroll .1px .1px;
+    background-size: 40px;
+    padding-left:30px;
+    height: 60px;
+}
+
+#test1, #test2{
+   text-align: center;
+   background-image: url(../assets/images/gray_suitcase.jpg);
+}
+
 a.planear{
     text-align: center;
     width: 100%;
@@ -17,13 +29,6 @@ a.planear{
 text-align: center;
 box-shadow:0 0 5px 5px #DDDDDD;
   }
-
-#add-comm{
-    background: url(../assets/images/userman.png) no-repeat scroll .1px .1px;
-    background-size: 40px;
-    padding-left:30px;
-    height: 60px;
-}
 
 .brand-logo > img{
     width:60px;
@@ -47,12 +52,17 @@ box-shadow:0 0 5px 5px #DDDDDD;
     box-shadow:0 0 5px 5px #DDDDDD;
 }
 
+.friend{
+    margin: 3%;
+}
+
 .nav-extended {
     margin-bottom: 0px;
     padding: 30px 15px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s
     height: 350px;
+    background-color: 
   }
 
 .side-nav{

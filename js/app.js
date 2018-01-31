@@ -4,6 +4,8 @@ var $commentInput = $("#comment-Input");
 function loadPage() {
   $('.modal').modal();
   $(".button-collapse").sideNav();
+  $('.tap-target').tapTarget('open');
+  $('.tap-target').tapTarget('close');
   $("#form").submit(addComment);
   $commentInput.keyup(validateComment);
 }
